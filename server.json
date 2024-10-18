@@ -1,0 +1,15 @@
+{
+    "name":"q;",
+    "openBrowser":true,
+    "openBrowserURL":"http://test.com:1025",
+    "app":{
+        "cfengine":"adobe@2021.0.12+330257"
+    },
+    "web":{
+        "host":"test.com",
+        "http":{
+            "port":"1025"
+        }
+    },
+    "server.json":true
+}

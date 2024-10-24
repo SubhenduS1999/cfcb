@@ -8,3 +8,6 @@
 </cfquery>
 
 <cfdump var="#myQuery#">
+
+<cfset hashedPassword = hash('mindfire', "SHA-256")>
+<cfoutput>#hashedPassword#</cfoutput> 

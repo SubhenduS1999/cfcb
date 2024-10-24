@@ -31,3 +31,11 @@
     </tbody>
 </table>
 <a href="addUser.cfm">Add New User</a>
+<br>
+<br>
+<a href="logout.cfm">Logout</a>
+<br>
+
+<cfoutput>
+    <br>Welcome back, #session.userFirstName#!
+</cfoutput>

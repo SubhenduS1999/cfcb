@@ -10,6 +10,7 @@ $(document).ready(function () {
 
         $.ajax({
             url: "http://test.com:1025/api/userLogin.cfc?method=VerifyUser",
+            // url: "http://test.com:1025/api/userLogin.cfc?method=CheckLogin",
 
             type: "POST",
             data: { email: email, password: password },
